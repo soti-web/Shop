@@ -1,8 +1,8 @@
 import styles from './NotFound.module.css';
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import NavBar from '../../components/NavBar/NavBar';
-import Cart from '../../components/Cart/Cart';
+import NavBar from '../../Components/NavBar/NavBar';
+import Cart from '../../Components/Cart/Cart';
 import { motion } from "framer-motion";
 
 const NotFound = props => {
