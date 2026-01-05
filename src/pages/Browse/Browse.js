@@ -1,6 +1,6 @@
 import styles from './Browse.module.css';
 import React, { useEffect, useState } from 'react';
-import NavBar from '../../components/NavBar/NavBar';
+import NavBar from '../../Components/NavBar/NavBar';
 import { useNavigate } from 'react-router-dom';
 import AnimatedPage from '../AnimatedPage/AnimatedPage';
 import { ReactComponent as Grids } from "../../assets/image/grid.svg";
