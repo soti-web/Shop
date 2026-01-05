@@ -2,15 +2,15 @@ import styles from './GamePage.module.css';
 import React, { useState } from 'react';
 import { useLocation, useParams } from 'react-router-dom';
 import AnimatedGamePage from '../AnimatedPage/AnimatedGamePage';
-import NavBar from '../../components/NavBar/NavBar';
+import NavBar from '../../Components/NavBar/NavBar';
 import { ReactComponent as Arrow } from "../../assets/image/arrow.svg";
 import { ReactComponent as Up } from "../../assets/image/up.svg";
 import { ReactComponent as Like } from "../../assets/image/like.svg";
-import Slider from '../../components/Slider/Slider';
+import Slider from '../../Components/Slider/Slider';
 import AnimatedText from '../AnimatedPage/AnimatedText';
 import { ReactComponent as Add } from "../../assets/image/add.svg";
-import AddedToCartBig from '../../components/AddedToCart/AddedToCartBig';
-import Cart from '../../components/Cart/Cart';
+import AddedToCartBig from '../../Components/AddedToCart/AddedToCartBig';
+import Cart from '../../Components/Cart/Cart';
 import templateGame from '../../utils/templateGame';
 
 const GamePage = props => {
